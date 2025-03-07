@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion</title>
+    <style>
+        #park {
+            width: 100%;
+            height: 1000px;
+            position: relative;
+            background-image: url('images/park.png');
+            background-size: 90% 90%;
+            background-repeat: no-repeat;
+        }
+
+        #horse {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            bottom: 0px;
+        }
+        #lion {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 0px;
+            left: 200px;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <p><button onclick="move()">Move It!</button>&nbsp;
+        <button onclick="stopMoving()">Stop!</button></p>
+        <div id="container">
+        <div id="park">
+        <img id="horse" src="images/runningn0001.png" alt="boy"/>
+        <img id="lion" src="images/lionrunnings0001.png" alt="boy"/>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
